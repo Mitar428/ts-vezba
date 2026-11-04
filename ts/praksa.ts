@@ -1,12 +1,11 @@
-let age:number=25;
-age="dvadeset pet";
+let age:string="dvadeset jedan";
+age="dvadeset"
 
 function pozdrav(ime:string,uzvik:string="zdravo"):string{
-return '${uzvik}, ${ime}!';
+return `${uzvik}, ${ime}!`;
 }
 
 console.log(pozdrav("Marko"))
-console.log(pozdrav(42));
+console.log(pozdrav("mitar"));
 let id:number | string=5;
 id="abc";
-id=true;

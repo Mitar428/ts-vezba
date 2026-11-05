@@ -21,6 +21,7 @@ function addAppointment(
     list.push(appointment);
 }
 
+
 function filterByStatus(
     list: Appointment[],
     status: string
@@ -35,6 +36,8 @@ function filterByStatus(
 
     return result;
 }
+
+
 
 function countByStatus(
     list: Appointment[],

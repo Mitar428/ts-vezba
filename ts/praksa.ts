@@ -23,7 +23,7 @@ function addAppointment(
 
 
 function filterByStatus(
-    list: Appointment[],
+    list: Appointment[], 
     status: string
 ): Appointment[] {
     const result: Appointment[] = [];
@@ -36,6 +36,15 @@ function filterByStatus(
 
     return result;
 }
+
+/*
+if(false === true){
+    console.log("uslo");
+} else if(true===false){
+    console.log("izaslo");
+}else{
+    console.log("otislo");
+}*/
 
 
 

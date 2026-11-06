@@ -20,6 +20,14 @@ function filterByStatus(list, status) {
     }
     return result;
 }
+/*
+if(false === true){
+    console.log("uslo");
+} else if(true===false){
+    console.log("izaslo");
+}else{
+    console.log("otislo");
+}*/
 function countByStatus(list, status) {
     return filterByStatus(list, status).length;
 }
